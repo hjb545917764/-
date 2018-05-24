@@ -1,0 +1,6 @@
+-c --cpu Cortex-M4 -g -O0 --apcs=interwork -I..\..\Libraries\drivers\inc -I..\inc -I..\..\Libraries\devices\inc -I..\..\Libraries\fatfs -I..\..\Libraries\startup\CoreSupport -I..\..\Libraries\startup\DeviceSupport -I..\..\Libraries\startup\DeviceSupport\MDK-ARM --c99
+-I C:\Users\Administrator\Desktop\Ö÷Ð¾Æ¬\Project\MDK\RTE
+-I C:\Keil_v5\ARM\PACK\Keil\Kinetis_K60_DFP\1.2.0\Device\Include
+-I C:\Keil_v5\ARM\CMSIS\Include
+-D__UVISION_VERSION="516" -DMK60DN512xxx10 -DMK60D10 -DRAVEN -DDEBUG
+-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d "..\src\main.c"

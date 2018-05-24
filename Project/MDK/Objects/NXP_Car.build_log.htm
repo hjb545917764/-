@@ -1,0 +1,141 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.16a
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: ¾¸±ó,  , LIC=EXJJJ-UJA49-LCXJF-6197L-4PU18-IHZFK
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Standard  Version: 5.16a
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 (build 20)
+Assembler:       Armasm.exe V5.06 (build 20)
+Linker/Locator:  ArmLink.exe V5.06 (build 20)
+Library Manager: ArmAr.exe V5.06 (build 20)
+Hex Converter:   FromElf.exe V5.06 (build 20)
+CPU DLL:         SARMCM3.DLL V5.16a
+Dialog DLL:      DCM.DLL V1.13.2.0
+Target DLL:      Segger\JL2CM3.dll V2.99.15.2
+Dialog DLL:      TCM.DLL V1.14.5.0
+ 
+<h2>Project:</h2>
+E:\¶÷ÖÇÆÖÖÇÄÜ³µÊµÑéÊÒ\Ö÷Ð¾Æ¬\Project\MDK\NXP_Car.uvprojx
+Project File Date:  05/17/2018
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 (build 20)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'MK60DN512'
+compiling camera.c...
+..\inc\Motor.h(10): warning:  #1295-D: Deprecated declaration Motor_PID_Output - give arg types
+  void Motor_PID_Output();
+..\src\camera.c: 1 warning, 0 errors
+compiling main.c...
+..\inc\Motor.h(10): warning:  #1295-D: Deprecated declaration Motor_PID_Output - give arg types
+  void Motor_PID_Output();
+..\src\main.c: 1 warning, 0 errors
+compiling Running.c...
+..\inc\Motor.h(10): warning:  #1295-D: Deprecated declaration Motor_PID_Output - give arg types
+  void Motor_PID_Output();
+..\src\Running.c: 1 warning, 0 errors
+compiling delay.c...
+..\inc\Motor.h(10): warning:  #1295-D: Deprecated declaration Motor_PID_Output - give arg types
+  void Motor_PID_Output();
+..\src\delay.c: 1 warning, 0 errors
+compiling Img_processing.c...
+..\inc\Motor.h(10): warning:  #1295-D: Deprecated declaration Motor_PID_Output - give arg types
+  void Motor_PID_Output();
+..\src\Img_processing.c(231): warning:  #167-D: argument of type "uint8_t (*)[320]" is incompatible with parameter of type "const uint8_t (*)[320]"
+  							pixel=min_point(CCD_Image1,i,j);
+..\src\Img_processing.c(251): warning:  #167-D: argument of type "uint8_t (*)[320]" is incompatible with parameter of type "const uint8_t (*)[320]"
+  								pixel=min_point(CCD_Image1,i,j);
+..\src\Img_processing.c(275): warning:  #167-D: argument of type "uint8_t (*)[320]" is incompatible with parameter of type "const uint8_t (*)[320]"
+  							pixel=min_point(CCD_Image2,i,j);
+..\src\Img_processing.c(295): warning:  #167-D: argument of type "uint8_t (*)[320]" is incompatible with parameter of type "const uint8_t (*)[320]"
+  								pixel=min_point(CCD_Image2,i,j);
+..\src\Img_processing.c(337): warning:  #1-D: last line of file ends without a newline
+  }
+..\src\Img_processing.c: 6 warnings, 0 errors
+compiling Init.c...
+..\inc\Motor.h(10): warning:  #1295-D: Deprecated declaration Motor_PID_Output - give arg types
+  void Motor_PID_Output();
+..\src\Init.c: 1 warning, 0 errors
+compiling Car_Test.c...
+..\inc\Motor.h(10): warning:  #1295-D: Deprecated declaration Motor_PID_Output - give arg types
+  void Motor_PID_Output();
+..\src\Car_Test.c(144): warning:  #177-D: variable "sum_P" was declared but never referenced
+  	  uint32_t sum_P;
+..\src\Car_Test.c(145): warning:  #177-D: variable "ave_P" was declared but never referenced
+      uint8_t  ave_P;
+..\src\Car_Test.c(146): warning:  #177-D: variable "evade_door" was declared but never referenced
+  		uint8_t  evade_door;
+..\src\Car_Test.c(147): warning:  #177-D: variable "count_block" was declared but never referenced
+  	  uint32_t count_block;
+..\src\Car_Test.c(308): warning:  #167-D: argument of type "uint8_t (*)[320]" is incompatible with parameter of type "const uint8_t (*)[320]"
+  					CCD_Image2[i][j]=min_point(CCD_Image1,i,j);
+..\src\Car_Test.c(378): warning:  #167-D: argument of type "uint8_t (*)[320]" is incompatible with parameter of type "const uint8_t (*)[320]"
+  					CCD_Image1[i][j]=min_point(CCD_Image2,i,j);
+..\src\Car_Test.c(265): warning:  #177-D: variable "count" was declared but never referenced
+  		int count;
+..\src\Car_Test.c(587): warning:  #1-D: last line of file ends without a newline
+  }
+..\src\Car_Test.c: 9 warnings, 0 errors
+compiling Motor.c...
+..\inc\Motor.h(10): warning:  #1295-D: Deprecated declaration Motor_PID_Output - give arg types
+  void Motor_PID_Output();
+..\src\Motor.c(37): warning:  #68-D: integer conversion resulted in a change of sign
+  		Left_QD_value=-65536+Left_QD_value;
+..\src\Motor.c(39): warning:  #68-D: integer conversion resulted in a change of sign
+  		Right_QD_value=-65536+Right_QD_value;
+..\src\Motor.c: 3 warnings, 0 errors
+compiling ov7620.c...
+..\inc\Motor.h(10): warning:  #1295-D: Deprecated declaration Motor_PID_Output - give arg types
+  void Motor_PID_Output();
+..\src\ov7620.c(231): warning:  #1-D: last line of file ends without a newline
+  	
+..\src\ov7620.c: 2 warnings, 0 errors
+compiling switch.c...
+compiling variable.c...
+..\inc\Motor.h(10): warning:  #1295-D: Deprecated declaration Motor_PID_Output - give arg types
+  void Motor_PID_Output();
+..\src\variable.c: 1 warning, 0 errors
+compiling Move.c...
+..\inc\Motor.h(10): warning:  #1295-D: Deprecated declaration Motor_PID_Output - give arg types
+  void Motor_PID_Output();
+..\src\Move.c: 1 warning, 0 errors
+assembling startup_MK60D10.s...
+compiling system_MK60D10.c...
+compiling adc.c...
+compiling cmt.c...
+compiling common.c...
+compiling dac.c...
+compiling dma.c...
+compiling ftm.c...
+compiling gpio.c...
+compiling io2iic.c...
+compiling pit.c...
+compiling systick.c...
+compiling sd.c...
+compiling wdog.c...
+compiling uart.c...
+compiling spi.c...
+compiling flash.c...
+compiling ov7725.c...
+compiling Drv_LCD.c...
+compiling diskio.c...
+compiling ff.c...
+linking...
+Program Size: Code=36122 RO-data=3310 RW-data=372 ZI-data=80724  
+FromELF: creating hex file...
+".\Objects\NXP_Car.axf" - 0 Error(s), 27 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  E:\¶÷ÖÇÆÖÖÇÄÜ³µÊµÑéÊÒ\Ö÷Ð¾Æ¬\Project\MDK\RTE
+  C:\Keil_v5\ARM\PACK\Keil\Kinetis_K60_DFP\1.2.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:16
+</pre>
+</body>
+</html>

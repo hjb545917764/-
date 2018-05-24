@@ -1,0 +1,14 @@
+.\objects\diskio.o: ..\..\Libraries\fatfs\diskio.c
+.\objects\diskio.o: ..\..\Libraries\fatfs\diskio.h
+.\objects\diskio.o: ..\..\Libraries\fatfs\integer.h
+.\objects\diskio.o: ..\..\Libraries\drivers\inc\sd.h
+.\objects\diskio.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\diskio.o: ..\..\Libraries\drivers\inc\common.h
+.\objects\diskio.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\diskio.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\diskio.o: ..\..\Libraries\startup\DeviceSupport\MK60D10.h
+.\objects\diskio.o: ..\..\Libraries\startup\CoreSupport\core_cm4.h
+.\objects\diskio.o: ..\..\Libraries\startup\CoreSupport\core_cmInstr.h
+.\objects\diskio.o: ..\..\Libraries\startup\CoreSupport\core_cmFunc.h
+.\objects\diskio.o: ..\..\Libraries\startup\CoreSupport\core_cm4_simd.h
+.\objects\diskio.o: ..\..\Libraries\startup\DeviceSupport\system_MK60D10.h
