@@ -1,0 +1,14 @@
+.\objects\ov7725.o: ..\..\Libraries\devices\src\ov7725.c
+.\objects\ov7725.o: ..\..\Libraries\devices\inc\ov7725.h
+.\objects\ov7725.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\ov7725.o: ..\..\Libraries\drivers\inc\common.h
+.\objects\ov7725.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\ov7725.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\ov7725.o: ..\..\Libraries\startup\DeviceSupport\MK60D10.h
+.\objects\ov7725.o: ..\..\Libraries\startup\CoreSupport\core_cm4.h
+.\objects\ov7725.o: ..\..\Libraries\startup\CoreSupport\core_cmInstr.h
+.\objects\ov7725.o: ..\..\Libraries\startup\CoreSupport\core_cmFunc.h
+.\objects\ov7725.o: ..\..\Libraries\startup\CoreSupport\core_cm4_simd.h
+.\objects\ov7725.o: ..\..\Libraries\startup\DeviceSupport\system_MK60D10.h
+.\objects\ov7725.o: ..\..\Libraries\drivers\inc\io2iic.h
+.\objects\ov7725.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h

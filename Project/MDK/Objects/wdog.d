@@ -1,0 +1,12 @@
+.\objects\wdog.o: ..\..\Libraries\drivers\src\wdog.c
+.\objects\wdog.o: ..\..\Libraries\drivers\inc\wdog.h
+.\objects\wdog.o: ..\..\Libraries\drivers\inc\common.h
+.\objects\wdog.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\wdog.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\wdog.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\wdog.o: ..\..\Libraries\startup\DeviceSupport\MK60D10.h
+.\objects\wdog.o: ..\..\Libraries\startup\CoreSupport\core_cm4.h
+.\objects\wdog.o: ..\..\Libraries\startup\CoreSupport\core_cmInstr.h
+.\objects\wdog.o: ..\..\Libraries\startup\CoreSupport\core_cmFunc.h
+.\objects\wdog.o: ..\..\Libraries\startup\CoreSupport\core_cm4_simd.h
+.\objects\wdog.o: ..\..\Libraries\startup\DeviceSupport\system_MK60D10.h

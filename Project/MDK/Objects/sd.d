@@ -1,0 +1,13 @@
+.\objects\sd.o: ..\..\Libraries\drivers\src\sd.c
+.\objects\sd.o: ..\..\Libraries\drivers\inc\sd.h
+.\objects\sd.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\sd.o: ..\..\Libraries\drivers\inc\common.h
+.\objects\sd.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\sd.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\sd.o: ..\..\Libraries\startup\DeviceSupport\MK60D10.h
+.\objects\sd.o: ..\..\Libraries\startup\CoreSupport\core_cm4.h
+.\objects\sd.o: ..\..\Libraries\startup\CoreSupport\core_cmInstr.h
+.\objects\sd.o: ..\..\Libraries\startup\CoreSupport\core_cmFunc.h
+.\objects\sd.o: ..\..\Libraries\startup\CoreSupport\core_cm4_simd.h
+.\objects\sd.o: ..\..\Libraries\startup\DeviceSupport\system_MK60D10.h
+.\objects\sd.o: ..\..\Libraries\drivers\inc\gpio.h
